@@ -49,7 +49,7 @@ then
       TRIES=$(( $TRIES+1 ))
     else
       
-      echo "You guessed it in $TRIES tries. The secret number was $NUMBER. Nice Job!"
+      echo -e "You guessed it in $TRIES tries. The secret number was $NUMBER. Nice job!"
       break
     fi
   fi
